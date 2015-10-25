@@ -43,15 +43,15 @@
 }
 
 #tagline {
-  background-color: #eeeeee;
-  height: 100px;
+  background-color: #A9A9A9;
+  height: 60px;
   width: 100%;
   text-align: center;
 }
 
 #tagline h1 {
   margin-top: 0px;
-  padding: 30px 0 30px 0;
+  padding: 15px 0 15px 0;
   font-size: 24px;
   font-style: italic;
 }
@@ -81,6 +81,8 @@
 
 .middle p{
   font-size: 15px;
+  line-height: 150%;
+
 }
 
 #btncreate{
@@ -89,7 +91,9 @@
   font-style: bold;
   margin-left: 15px; 
   padding: 4px;
-  opacity:1;
+  margin-top: 10px;
+  border-radius: 5px;
+
 }
 
 #actions {
@@ -98,13 +102,54 @@
   border: 1px solid red;
 }
 
-#footer {
-  height: 100px;
-  width: 100%;
-  background-color: black;
+#create{
+  float: left;
+  height:100%;
+  width:200px;
+  border-right: gray;
+  padding:15px;
 }
 
+#find{
+  float: left;
+  height:100%;
+  width:200px;
+  border-right: gray;
+  padding:15px;
+}
 
+#design{
+  float: left;
+  height:100%;
+  width:200px;
+  border-right: gray;
+  padding:15px;  
+}
 
+#actions h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#actions p{
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.buttons{
+  background-color: #A9A9A9;
+  padding:5px 20px 5px 20px;
+  border-radius: 5px;
+}
+
+#footer{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding-top: 20px;
+  color:white;
+  font-size: 14px;
+  font-style: bold;
+}
 
 
